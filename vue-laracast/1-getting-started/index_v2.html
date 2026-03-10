@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="h-screen flex items-center justify-center">
+<div id="app">
+    <button :class="(active ? 'text-green-500' : 'text-red-500').concat(' border-1 p-2 rounded-sm cursor-pointer bg-gray-100')"
+            @click="toogle">
+        Click Me
+    </button>
+</div>
+
+<script>
+    Vue.createApp({
+        data() {
+            return {
+                active: false
+            }
+        },
+
+        methods: {
+            toogle() {
+                this.active = !this.active;
+            }
+        }
+
+    }).mount('#app');
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "assignments": [
+    {
+      "id": 1,
+      "name": "Terminar proyecto",
+      "tag": "ciencias",
+      "complete": true
+    },
+    {
+      "id": 2,
+      "name": "Hacer mates",
+      "tag": "matematicas",
+      "complete": false
+    },
+    {
+      "id": 3,
+      "name": "Hacer lengua",
+      "tag": "lengua",
+      "complete": false
+    }
+  ]
+}
