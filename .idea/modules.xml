@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/vue_laracast.iml" filepath="$PROJECT_DIR$/.idea/vue_laracast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CD_AprendizajeVue.iml" filepath="$PROJECT_DIR$/.idea/CD_AprendizajeVue.iml" />
     </modules>
   </component>
 </project>
