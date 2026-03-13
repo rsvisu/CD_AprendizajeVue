@@ -1,34 +1,19 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
-import {ref} from "vue";
-import {useFlash} from "@/composables/useFlash.js";
-
-// Ej 1:
-let message = ref("Hola Mundo!");
-
-setTimeout(() => {
-  message.value = "Cambiado";
-}, 2000);
-
-// Ej 2:
-let {flash} = useFlash();
-
+import TheWelcome from '@/components/TheWelcome.vue'
 </script>
 
 <template>
   <main>
     <!--<TheWelcome/>-->
-    <h1>Home</h1>
-    <h2>Ejemplo 1:</h2>
-    <div>
-      <p>{{ message }}</p>
-      <input v-model="message" type="text">
-    </div>
-
-    <h2>Ejemplo 2:</h2>
-    <div>
-      <button @click="flash('Muy bien!', 'Estoy en la pagina de inicio!', 'info')">Click Me</button>
-    </div>
+    <h2>Ejemplos:</h2>
+    <ul>
+      <li><RouterLink to="/examples/page1">Pagina 1</RouterLink></li>
+      <li><RouterLink to="/examples/page2">Pagina 2</RouterLink></li>
+      <li><RouterLink to="/examples/page3">Pagina 3</RouterLink></li>
+      <li><RouterLink to="/examples/page4">Pagina 4</RouterLink></li>
+    </ul>
+    <h2>Cuestionario:</h2>
+    <RouterLink to="/examples/quiz">Cuestionario</RouterLink>
   </main>
 
 </template>

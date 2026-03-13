@@ -1,11 +1,16 @@
 # Aprendizaje Vue | Campus Digital
 
-Repositorio con el código de los ejercicios y proyectos realizados para aprender Vue durante las prácticas en el **Campus Digital**.
+Repositorio con el código de los ejercicios y proyectos realizados para aprender Vue durante las prácticas en el **Campus Digital**. La idea es mantener aquí un histórico de aprendizaje (puede incluir más cursos o pruebas en el futuro).
 
 ### Contenido
 
-- [**Cursos**](#cursos) — Cursos seguidos, con sus ejercicios organizados por secciones.
+- [**Cursos**](#cursos) — Cursos seguidos y ejercicios organizados por secciones.
+- [**Estructura**](#estructura) — Cómo está organizado el repositorio a alto nivel.
 
+## Estructura
+
+- `vue-laracast/`: material y ejercicios del curso de Laracasts.
+    - `ejercicios/`: ejercicios organizados por bloques (Options API / Composition API).
 
 ## Cursos
 
